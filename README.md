@@ -16,12 +16,7 @@ Projet de Voiture Autonome pour l'électif STA
 
 4 - Une partie automatique, avec des fichiers MATLAB qui permettent de commander les MCC et les asservir en vitesse et en position.
         
-![Alt text](img/robot.png?raw=true "Title")
 
-![Alt text](img/objectDetection.jpg?raw=true "Title")
-
-![Alt text](img/lineDetection.png?raw=true "Title")
-
-<img src="img/lineDetection.png" width = 500>
-<img src="img/objectDetection.jpg" width = 500>
-<img src="img/robot.png" width = 500>
+<img src="img/lineDetection.png" width = 500 align ="left>
+<img src="img/objectDetection.jpg" width = 500 align="center">
+<img src="img/robot.png" width = 500 align="right>
