@@ -21,3 +21,5 @@ Projet de Voiture Autonome pour l'électif STA
 ![Alt text](img/objectDetection.jpg?raw=true "Title")
 
 ![Alt text](img/lineDetection.png?raw=true "Title")
+
+<img src="img/lineDetection.png" width = 100>
