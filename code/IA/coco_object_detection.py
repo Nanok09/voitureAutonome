@@ -1,4 +1,4 @@
-"""A demo to classify Raspberry Pi camera stream."""
+"""Ceci est une demo pour tester l'algorithme entrainé sur Google Colab"""
 import argparse
 import time
 
@@ -20,6 +20,7 @@ def main():
       '--label', help='File path of label file.', required=False)
     args = parser.parse_args()
     
+    # Importation des label et du modele de Deep Learning
     args.model = 'data/model_result/mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.tflite'
     args.label = 'data/model_result/coco_labels.txt'
         
@@ -27,7 +28,7 @@ def main():
         pairs = (l.strip().split(maxsplit=1) for l in f.readlines())
         labels = dict((int(k), v) for k, v in pairs)
 
-    # initialize open cv
+    # Initialisation open cv
     IM_WIDTH = 640
     IM_HEIGHT = 480
     camera = cv2.VideoCapture(0)
@@ -47,7 +48,7 @@ def main():
     time_to_show_prediction = 1.0 # ms
     min_confidence = 0.20
     
-    # initial classification engine
+    # Modele de Classification
     engine = edgetpu.detection.engine.DetectionEngine(args.model)
     elapsed_ms = 0
     
