@@ -1,0 +1,7 @@
+0 Green
+1 Limit 30
+2 Limit 50
+3 Person
+4 Red
+5 Stop
+6 person

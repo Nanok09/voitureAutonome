@@ -1,0 +1,6 @@
+0 green light
+1 person
+2 red light
+3 speed limit 30
+4 speed limit 50
+5 stop sign
